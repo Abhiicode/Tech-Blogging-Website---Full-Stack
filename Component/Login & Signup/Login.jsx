@@ -31,6 +31,7 @@ const Login = () => {
             alt="github btn"
           />
           Login with Github
+          {/* this is best project */}
         </button>
         <h3 id="or-line">or</h3>
         <div className="auth-container">
