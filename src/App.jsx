@@ -4,7 +4,7 @@ import HomePage from "./Component/HomePage Component/HomePage";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import SignUp from "./Component/SignUp/SignUp";
 //Bc aaj to lode lag gye
-
+//lode toh lag gaye par rohit bechare ke
 function App() {
   return (
     <BrowserRouter>
