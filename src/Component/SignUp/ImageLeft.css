@@ -1,0 +1,9 @@
+.img-container{
+    margin-top: 50px;
+}
+.img-container img{
+    max-width: fit-content;
+    max-height: fit-content;
+    margin: auto;
+    display: block;
+}
