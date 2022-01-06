@@ -1,0 +1,98 @@
+.input--container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .input-field-name {
+    display: inline-block;
+    margin-top: 25px;
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    /* margin-left: 6px; */
+  }
+  .input-field-name2 {
+    display: inline-block;
+    margin-top: 25px;
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    margin-left: 6px;
+  }
+  .input-field {
+    display: inline-block;
+    margin-top: 25px;
+    width: 300px;
+    height: 35px;
+    border-radius: 5px;
+  }
+  ::placeholder{
+      text-align: center;
+  }
+  .button-40 {
+    background-color: #111827;
+    margin-top: 25px;
+    border: 1px solid transparent;
+    border-radius: 0.75rem;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    flex: 0 0 auto;
+    font-family: "Inter var", ui-sans-serif, system-ui, -apple-system, system-ui,
+      "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+      "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    padding: 0.75rem 1.2rem;
+    text-align: center;
+    text-decoration: none #6b7280 solid;
+    text-decoration-thickness: auto;
+    transition-duration: 0.2s;
+    transition-property: background-color, border-color, color, fill, stroke;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 200px;
+  }
+  .button-40:hover {
+    background-color: #374151;
+  }
+  
+  .button-40:focus {
+    box-shadow: none;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+  }
+  #google-logo{
+    width: 45px;
+    height: 38px;
+    margin-right: 20px;
+}
+#linkedIn-logo{
+  width: 65px;
+  height: 49px;
+  margin-right: 10px;
+}
+#google-btn{
+    border-color: whitesmoke;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    box-shadow: #00000033 0px 0px 20px -10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+#google-btn:hover{
+    /* border: 4px solid black; */
+    background-color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+  
