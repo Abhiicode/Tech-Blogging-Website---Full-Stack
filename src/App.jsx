@@ -5,9 +5,14 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 <<<<<<< HEAD
 //hello bro
 //hi bro - Sid
+<<<<<<< HEAD
 =======
 import SignUp from "./Component/SignUp/SignUp";
 >>>>>>> 82859275910bbb647966f4700e2eb13d4c92b883
+=======
+//hi chutiye
+
+>>>>>>> cd7b006a66d29c524c27f62268d212f999647a3e
 function App() {
   //test line by Sid
   return (
