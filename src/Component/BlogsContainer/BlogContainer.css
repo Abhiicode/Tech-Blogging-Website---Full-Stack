@@ -1,0 +1,32 @@
+.blog-container{
+    display: flex;
+    justify-content: center;  
+    align-items: center; 
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 60px;
+}
+/* .blog-container:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+} */
+.blog-image{
+    width: 46.3rem;
+    height: 42.3rem;
+    margin-top: 7.2rem;
+    border: 2px solid #FFB344;
+    border-radius: 12px;
+}
+.blog-description{
+    font-size: 2rem;
+    color: #96C7C1;
+    font-weight: 700;
+    width: 45rem;
+    position : absolute;
+    top: 36rem;
+}
+span{
+    font-size: 2rem;
+    color: blanchedalmond;
+    font-weight: 600;
+}

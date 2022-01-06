@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+body {
+    background-color: #353836;
+  }
+header a {
+    text-decoration: none;
+  }
+  
+  header {
+    padding: 0 20px;
+    background-color: #1d1f1d;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #brand {
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  #brand a {
+    color: #FFB830;
+  }
+  ul {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  ul a {
+    color: white;
+  }
+  
+  ul li {
+    padding: 5px;
+    margin-left: 10px;
+  }
+  
+  ul li:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+  }
+  #login,
+#signup {
+  border-radius: 5px;
+  padding: 9px 10px;
+  margin-bottom: 35px;
+}
+
+#login {
+  border: 1px solid #99DDCC;
+}
+#login a {
+    color: #99DDCC;
+}
+
+#signup {
+  border: 1px solid #FE7E6D;
+}
+
+#signup a {
+  color: #FE7E6D;
+}
+.navbar-section{
+    position: absolute;
+    left: 800px;
+}
+#nav-img{
+    height: 80px;
+}
+#anchor-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-title{
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Indie Flower', cursive;
+    padding-left: 15px;
+    font-size: 1.5rem;
+}
+
+#home:hover{
+    color: #E63E6D;
+}
+#products:hover{
+    color: #E63E6D;
+}
+#technology:hover{
+    color: #E63E6D;
+}
+#reports:hover{
+    color: #E63E6D;
+}
