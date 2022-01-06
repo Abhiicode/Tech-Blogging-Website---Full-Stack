@@ -2,21 +2,16 @@ import "./App.css";
 import Login from "./Component/Login/Login";
 import HomePage from "./Component/HomePage Component/HomePage";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-
-//hello bro
-//hi bro - Sid
 import SignUp from "./Component/SignUp/SignUp";
+//Bc aaj to lode lag gye
 
-//hi chutiye
 function App() {
-  //test line by Sid
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<SignUp />} />
-
       </Routes>
     </BrowserRouter>
   );
