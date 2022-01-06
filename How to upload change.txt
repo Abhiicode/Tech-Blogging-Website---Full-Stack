@@ -3,3 +3,6 @@
 3. git checkout Test
 4. git merge yourbranchname
 5. //git add ., git commit -m "asdasd", git push origin Test
+////////////////////////////////////////////////////////////
+After implementing a feature:
+ask the other person to visit your branch so they can test it out on their system before uploading it to Test
